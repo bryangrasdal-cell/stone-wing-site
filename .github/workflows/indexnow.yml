@@ -1,0 +1,24 @@
+name: Notify IndexNow
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  indexnow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify participating search engines
+        shell: bash
+        run: |
+          KEY="a7f7739d2d2a27f5698303ce137cf5b1"
+          for URL in \
+            "https://spindleandstone.com/" \
+            "https://spindleandstone.com/software-license.html" \
+            "https://spindleandstone.com/subscription-terms.html" \
+            "https://spindleandstone.com/privacy.html" \
+            "https://spindleandstone.com/refunds.html"; do
+            curl --fail-with-body --silent --show-error \
+              "https://api.indexnow.org/indexnow?url=$(python3 -c 'import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1], safe=""))' "$URL")&key=$KEY"
+          done
