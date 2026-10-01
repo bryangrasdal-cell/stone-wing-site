@@ -1,0 +1,70 @@
+/* Stone Wing — Spindle & Stone obsidian glass art direction. */
+.obsidian-site{--panel:#0c0e12;--line:#282c33;--muted:#969ca8;background:radial-gradient(ellipse at 83% 8%,#101820 0,transparent 28%),#060708}
+.obsidian-site .ambient{opacity:.045}
+.obsidian-site .brand-mark{width:44px;height:44px;object-fit:contain;filter:none}
+.obsidian-site .hero{padding:60px 0 38px;text-align:left}
+.hero-layout{display:grid;grid-template-columns:1.12fr 1fr;align-items:center;gap:28px;min-height:530px}
+.obsidian-site h1{font-size:clamp(54px,6.2vw,80px);line-height:1.02;margin:24px 0;letter-spacing:-.055em}
+.obsidian-site h1 span{background:linear-gradient(120deg,#d9e8fb,#7babec);background-clip:text;-webkit-background-clip:text}
+.obsidian-site .hero-copy{font-size:18px;max-width:570px;margin:0;color:#a6adb8}
+.obsidian-site .hero-actions{justify-content:flex-start}
+.obsidian-site .eyebrow{background:#0d1014;border-color:#293039;font-size:10px}
+.obsidian-site .pulse{background:#6496d2;box-shadow:none;width:6px;height:6px}
+.hero-sculpture{height:520px;position:relative;display:grid;place-items:center;isolation:isolate}
+.sculpture-orbit{position:absolute;width:96%;aspect-ratio:1;border-radius:50%;border:1px solid #363b44;background:radial-gradient(circle at 40% 25%,#22262a80,transparent 42%),linear-gradient(145deg,#191d2199,#070809 65%,#151a22);box-shadow:inset 0 2px 2px #ffffff20,inset 0 -1px 2px #43618640,0 30px 70px #000;transform:rotate(-12deg)}
+.sculpture-orbit:after{content:'';position:absolute;inset:20px;border-radius:50%;border:1px solid #ffffff08;box-shadow:inset 0 12px 40px #000}
+.sculpture-lens{position:relative;width:82%;aspect-ratio:1;display:grid;place-items:center}
+.sculpture-lens img{width:100%;height:100%;object-fit:contain;filter:drop-shadow(0 22px 18px #0009)}
+.sculpture-reflection{position:absolute;bottom:17px;width:65%;height:15px;border-radius:50%;background:#387dc029;filter:blur(18px);z-index:-1}
+.sculpture-signature{position:absolute;bottom:-2px;text-align:center;color:#747b87;font-size:9px;letter-spacing:.27em}
+.sculpture-signature span{display:block;font-size:8px;color:#465364;margin-top:5px}
+.obsidian-site .proof-strip{margin-top:36px;background:linear-gradient(160deg,#15181ca6,#080a0c);border-color:#2b3037;border-radius:12px;box-shadow:inset 0 1px #ffffff0c}
+.obsidian-site .proof-strip div{border-color:#252930}
+.obsidian-site .platform-card{background:linear-gradient(155deg,#1c2025,#0c0e11 45%,#080a0d);border-color:#343a43;padding:14px;border-radius:18px;box-shadow:inset 0 1px #ffffff16,0 24px 50px #0007}
+.obsidian-site .platform-label{font-size:12px;font-weight:500}
+.concept-pill{margin-left:auto;color:#6a7584;font-size:8px;letter-spacing:.1em}
+.controller-concept{border:1px solid #373e47;border-radius:10px;overflow:hidden;background:radial-gradient(ellipse at 65% 25%,#1d2d3c66,transparent 55%),linear-gradient(145deg,#181c22,#080a0c);box-shadow:inset 0 1px #ffffff0e,0 10px 25px #0008}
+.controller-titlebar{height:34px;display:flex;align-items:center;justify-content:space-between;padding:0 12px;border-bottom:1px solid #ffffff0a;font-size:8px;letter-spacing:.18em;color:#8c939d;background:#ffffff03}
+.window-controls{font-size:8px;color:#666e79;letter-spacing:4px;min-width:66px}
+.concept-version{font-size:7px;color:#545c69}
+.controller-surface{position:relative;display:grid;grid-template-columns:90px 1fr;min-height:340px;padding-bottom:65px}
+.controller-rail{padding:25px 14px;border-right:1px solid #ffffff08;display:flex;flex-direction:column;gap:22px;font-size:9px;color:#77818d}
+.rail-label{font-size:6px;letter-spacing:.15em;color:#566273}
+.controller-core{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:20px 12px;text-align:center}
+.core-orbit{position:relative;width:170px;height:170px;border:1px solid #4b566733;border-radius:50%;display:grid;place-items:center;background:linear-gradient(145deg,#252b33a1,#080a0d 70%);box-shadow:inset 0 1px 2px #ffffff17,0 16px 35px #0009}
+.core-orbit:before{content:'';position:absolute;inset:12px;border-radius:50%;border:1px solid #668fb31a}
+.obsidian-site .core-orbit img{width:82%;height:82%;object-fit:contain;position:relative}
+.controller-core h3{font-size:14px;font-weight:500;letter-spacing:-.02em;margin:15px 0 4px;color:#c2c8d0}
+.controller-core>span{font-size:8px;color:#687381}
+.controller-dock{position:absolute;bottom:16px;left:calc(50% + 40px);transform:translateX(-50%);display:flex;gap:24px;padding:14px 22px;border:1px solid #414a575c;border-radius:12px;background:linear-gradient(165deg,#2b323c80,#0a0c10);box-shadow:inset 0 1px #ffffff1c,0 8px 20px #0008;white-space:nowrap}
+.controller-dock span{font-size:6px;letter-spacing:.12em;color:#9aa9bc}
+.win .controller-titlebar{flex-direction:row-reverse}.win .window-controls{letter-spacing:9px}
+.obsidian-site .concept-note{color:#8993a2;margin-top:7px}
+.obsidian-site .feature-grid article,.obsidian-site .gov-grid div,.obsidian-site .price-option,.obsidian-site .pricing-includes,.obsidian-site .cost-grid div{border-color:#292e36;background:linear-gradient(150deg,#171b2080,#0a0c0f);box-shadow:inset 0 1px #ffffff09}
+.obsidian-site .ico{background:linear-gradient(145deg,#222a35,#0b1017);border-color:#344051;color:#91afd5}
+.obsidian-site .section-kicker{color:#87a5cf;font-weight:600;font-size:10px}
+.obsidian-site .wide-visual{border-color:#333a43;border-radius:20px;background:radial-gradient(ellipse at 50% 20%,#29354155,transparent 60%),linear-gradient(155deg,#171b20,#080a0d 60%);box-shadow:inset 0 1px #ffffff14,0 25px 70px #0008}
+.workflow-visual{padding:48px;display:grid;grid-template-columns:1fr 1.1fr 1fr;align-items:center;gap:30px}
+.workflow-rail{display:flex;flex-direction:column;gap:18px}
+.workflow-rail div{display:flex;align-items:center;gap:12px;border:1px solid #343b455e;background:linear-gradient(135deg,#242b3559,#0c1015);padding:18px 15px;border-radius:10px;box-shadow:inset 0 1px #ffffff0a}
+.workflow-rail span{font-size:9px;color:#6883a5;letter-spacing:.1em}.workflow-rail strong{font-size:12px;font-weight:500;color:#b0bac7}
+.workflow-core{display:flex;flex-direction:column;align-items:center;text-align:center;gap:12px}
+.workflow-core .core-orbit{width:220px;height:220px}
+.workflow-core>strong{font-size:13px;letter-spacing:.15em;font-weight:600}.workflow-core>span{font-size:7px;letter-spacing:.16em;color:#7190b5}
+.obsidian-site .network-card{background:radial-gradient(circle,#25303f80,transparent 60%),linear-gradient(145deg,#191e25,#080a0d);border-color:#343b45;box-shadow:inset 0 1px #ffffff12}
+.obsidian-site .node{background:linear-gradient(145deg,#252c36,#0b0e13);border-color:#3b485b;box-shadow:inset 0 1px #ffffff0f}
+.obsidian-site .node.center{width:170px;height:170px;border-radius:50%;box-shadow:0 16px 30px #0008;border-color:#455976}
+.node.center img{height:110px;width:110px;object-fit:contain}.obsidian-site .node.center span{font-size:7px;letter-spacing:.11em;color:#7e9dc6}
+.obsidian-site .governance-ring{border-color:#3b4b6266;color:#748298}.obsidian-site .line{height:1px;background:linear-gradient(90deg,#39475b,#7195c4)}
+.obsidian-site .governance-box,.obsidian-site .notify-box{background:linear-gradient(140deg,#1c222a99,#0a0d11 65%);border-color:#364252;box-shadow:inset 0 1px #ffffff12}
+.comparison-visual{display:grid;grid-template-columns:1fr 1fr;gap:70px;padding:45px 65px;align-items:center}
+.visual-overline{display:block;color:#8192a9;font-size:9px;letter-spacing:.16em;margin-bottom:20px}
+.stack-layer{position:relative;margin-bottom:12px;padding:20px 26px;border:1px solid #333b4670;border-radius:12px;background:linear-gradient(155deg,#292f3980,#11151b);font-size:13px;color:#8994a4;box-shadow:0 12px 24px #0006,inset 0 1px #ffffff0c}
+.stack-layer:nth-child(3){margin-left:15px}.stack-layer:nth-child(4){margin-left:30px}
+.stack-caption{color:#697688;font-size:11px}.workspace-study{display:flex;flex-direction:column;align-items:center;text-align:center}.workspace-study img{width:190px;height:190px;object-fit:contain}.workspace-study .visual-overline{margin:14px 0 7px}.workspace-study strong{font-size:24px;letter-spacing:.09em;font-weight:500}.workspace-study>span:last-child{font-size:11px;color:#71849d;margin-top:6px}
+.obsidian-site .primary{background:linear-gradient(180deg,#3874ba,#24538f);box-shadow:inset 0 1px #ffffff2e,0 10px 25px #0008}.obsidian-site .ghost{background:linear-gradient(150deg,#1d232c,#0c1016);border-color:#3b4554;box-shadow:inset 0 1px #ffffff10}
+.obsidian-site .price-option.featured{border-color:#496d9e;box-shadow:inset 0 1px #ffffff12,0 20px 40px #0008}
+@media(max-width:1000px){.hero-layout{grid-template-columns:1.1fr 1fr;gap:10px}.hero-sculpture{height:400px}.obsidian-site h1{font-size:60px}.workflow-visual{padding:30px;gap:18px}.workflow-core .core-orbit{width:170px;height:170px}.comparison-visual{padding:35px;gap:35px}}
+@media(max-width:900px){.hero-layout{grid-template-columns:1fr}.hero-content{max-width:680px}.hero-sculpture{height:440px;width:min(470px,100%);justify-self:center}.obsidian-site .hero{padding-top:38px}.obsidian-site .hero-copy{max-width:650px}.controller-surface{min-height:360px}.workflow-visual{grid-template-columns:1fr 1fr;gap:24px}.workflow-core{grid-column:1/-1;grid-row:1}.workflow-core .core-orbit{width:200px;height:200px}.obsidian-site .node.center{width:150px;height:150px}.node.center img{width:100px;height:100px}}
+@media(max-width:580px){.obsidian-site h1{font-size:52px}.obsidian-site .hero-copy{font-size:16px}.hero-sculpture{height:370px;max-width:370px}.obsidian-site .proof-strip{grid-template-columns:1fr 1fr;margin-top:32px}.obsidian-site .proof-strip div{padding:16px;border-right:1px solid #252930}.obsidian-site .proof-strip strong{font-size:13px}.obsidian-site .proof-strip span{font-size:10px}.controller-surface{min-height:320px;grid-template-columns:65px 1fr}.controller-rail{padding:23px 9px;font-size:8px}.rail-label{font-size:5px}.core-orbit{width:145px;height:145px}.controller-dock{left:calc(50% + 30px);gap:17px;padding:13px 16px}.platform-label{font-size:10px!important}.concept-pill{font-size:7px}.workflow-visual{padding:22px 14px;gap:12px}.workflow-rail div{padding:12px 8px;gap:6px}.workflow-rail strong{font-size:10px}.workflow-rail span{font-size:7px}.comparison-visual{grid-template-columns:1fr;padding:30px;gap:35px}.stack-study{max-width:340px;width:100%;justify-self:center}.obsidian-site .node.center{width:120px;height:120px}.node.center img{width:80px;height:80px}.obsidian-site .node.center span{font-size:5px}.obsidian-site .node.computer{padding:12px 10px;font-size:10px}.obsidian-site .section{padding:65px 0}.obsidian-site .governance-box{padding:26px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none;transform:none}}

@@ -8,12 +8,14 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/png" href="stone-wing-mark.png" />
+  <link rel="stylesheet" href="styles.css?v=obsidian-fox-1" />
+  <link rel="stylesheet" href="obsidian.css?v=1" />
 </head>
-<body>
+<body class="obsidian-site" data-art-direction="obsidian-fox-1">
   <div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
   <header class="nav shell">
-    <a href="#top" class="brand" aria-label="Stone Wing home"><span class="brand-mark">◆</span><span>STONE WING</span></a>
+    <a href="#top" class="brand" aria-label="Stone Wing home"><img class="brand-mark" src="stone-wing-mark.png" alt="" width="44" height="44" /><span>STONE WING</span></a>
     <nav aria-label="Primary">
       <a href="#capabilities">Capabilities</a>
       <a href="#bridge">Bridge</a>
@@ -25,6 +27,7 @@
 
   <main id="top">
     <section class="hero shell">
+      <div class="hero-layout"><div class="hero-content">
       <div class="eyebrow"><span class="pulse"></span> MAC + WINDOWS · MULTI-MODEL · MCP · BRIDGE · GOVERNANCE</div>
       <h1>Premium AI workflow.<br><span>Without the premium stack.</span></h1>
       <p class="hero-copy">One governed desktop workspace for multiple AI models, files, MCP tools and authorized computers. Use supported free-tier model access where available — and keep control of what AI can actually do.</p>
@@ -32,6 +35,13 @@
         <a class="button primary" href="#pricing">See Early Bird + Monthly Pricing</a>
         <a class="button ghost" href="#how">See how it works</a>
       </div>
+      </div>
+      <div class="hero-sculpture" aria-label="Stone Wing fox and wing emblem in obsidian glass">
+        <div class="sculpture-orbit" aria-hidden="true"></div>
+        <div class="sculpture-lens"><img src="stone-wing-mark.png" alt="Stone Wing fox-and-wing emblem with obsidian stone and blue edges" width="640" height="640" fetchpriority="high" /></div>
+        <div class="sculpture-reflection" aria-hidden="true"></div>
+        <span class="sculpture-signature">SPINDLE &amp; STONE <span>OBSIDIAN GLASS</span></span>
+      </div></div>
       <div class="proof-strip">
         <div><strong>$99 Early Bird</strong><span>one-time purchase</span></div>
         <div><strong>Mac + Windows</strong><span>equal desktop support</span></div>
@@ -41,15 +51,29 @@
     </section>
 
     <section class="dual-shot shell reveal" aria-label="Stone Wing on Mac and Windows">
-      <div class="platform-card">
-        <div class="platform-label"><span class="dot mac"></span>Stone Wing for macOS</div>
-        <img src="stone-wing-mac.png" alt="Stone Wing concept on macOS showing multiple models, files, routing, Bridge, MCP and governance" />
+<div class="platform-card">
+        <div class="platform-label"><span class="dot mac"></span>Stone Wing for macOS<span class="concept-pill">DESIGN CONCEPT</span></div>
+        <div class="controller-concept mac" role="img" aria-label="Obsidian-glass Stone Wing macOS design concept with a central fox-and-wing emblem and panels for models, files and tools">
+          <div class="controller-titlebar"><span class="window-controls" aria-hidden="true">● ● ●</span><span>STONE WING</span><span class="concept-version">WORKSPACE</span></div>
+          <div class="controller-surface">
+            <div class="controller-rail"><span class="rail-label">YOUR CONTEXT</span><span>Models</span><span>Files</span><span>Tools</span><span>Bridge</span></div>
+            <div class="controller-core"><div class="core-orbit"><img src="stone-wing-mark.png" alt="" width="200" height="200" loading="lazy" /></div><h3>What will you create?</h3><span>One workspace. Your control.</span></div>
+            <div class="controller-dock"><span>MODELS</span><span>FILES</span><span>APPROVALS</span></div>
+          </div>
+        </div>
       </div>
       <div class="platform-card">
-        <div class="platform-label"><span class="dot win"></span>Stone Wing for Windows</div>
-        <img src="stone-wing-windows.png" alt="Stone Wing concept on Windows showing multiple models, files, routing, Bridge, MCP and governance" />
+        <div class="platform-label"><span class="dot win"></span>Stone Wing for Windows<span class="concept-pill">DESIGN CONCEPT</span></div>
+        <div class="controller-concept win" role="img" aria-label="Obsidian-glass Stone Wing Windows design concept with a central fox-and-wing emblem and panels for models, files and tools">
+          <div class="controller-titlebar"><span class="window-controls" aria-hidden="true">− □ ×</span><span>STONE WING</span><span class="concept-version">WORKSPACE</span></div>
+          <div class="controller-surface">
+            <div class="controller-rail"><span class="rail-label">YOUR CONTEXT</span><span>Models</span><span>Files</span><span>Tools</span><span>Bridge</span></div>
+            <div class="controller-core"><div class="core-orbit"><img src="stone-wing-mark.png" alt="" width="200" height="200" loading="lazy" /></div><h3>What will you create?</h3><span>One workspace. Your control.</span></div>
+            <div class="controller-dock"><span>MODELS</span><span>FILES</span><span>APPROVALS</span></div>
+          </div>
+        </div>
       </div>
-      <p class="concept-note">Product visuals are launch concepts representing verified target capabilities; final UI may differ.</p>
+      <p class="concept-note">Visual design concepts, not screenshots of the released app. Final interface may differ.</p>
     </section>
 
     <section id="capabilities" class="section shell reveal">
@@ -71,7 +95,11 @@
     <section id="how" class="section shell visual-section reveal">
       <div class="section-kicker">SEE THE SYSTEM</div>
       <h2>Models in. Tools in. Files in. Governance around all of it.</h2>
-      <img class="wide-visual" src="how-stone-wing-works.png" alt="Diagram showing how Stone Wing connects models, Bridge, MCP tools, files, routing, approvals and governance" />
+      <div class="workflow-visual" role="img" aria-label="Stone Wing connects supported models, files and MCP tools with routing, Bridge connectivity and approval controls.">
+        <div class="workflow-rail"><div><span>01</span><strong>Supported models</strong></div><div><span>02</span><strong>Files &amp; context</strong></div><div><span>03</span><strong>MCP tools</strong></div></div>
+        <div class="workflow-core"><div class="core-orbit"><img src="stone-wing-mark.png" alt="" width="240" height="240" loading="lazy" /></div><strong>STONE WING</strong><span>GOVERNANCE AT THE CORE</span></div>
+        <div class="workflow-rail"><div><span>04</span><strong>Model routing</strong></div><div><span>05</span><strong>Bridge connections</strong></div><div><span>06</span><strong>Approval controls</strong></div></div>
+      </div>
     </section>
 
     <section id="bridge" class="section shell reveal">
@@ -91,7 +119,7 @@
         <div class="network-card" aria-label="Connected computers diagram">
           <div class="node computer">Mac</div>
           <div class="line l1"></div>
-          <div class="node center">STONE<br>WING<span>BRIDGE</span></div>
+          <div class="node center"><img src="stone-wing-mark.png" alt="" width="110" height="110" loading="lazy" /><span>STONE WING · BRIDGE</span></div>
           <div class="line l2"></div>
           <div class="node computer right">Windows</div>
           <div class="governance-ring">GOVERNED CONNECTION</div>
@@ -119,7 +147,10 @@
       <div class="section-kicker">WHY THE PRICE FEELS DIFFERENT</div>
       <h2>One workspace instead of a stack of subscriptions.</h2>
       <p class="section-intro">A representative separate stack can exceed $100/month once premium AI, automation, coding and remote-access tools are combined. Stone Wing is not identical to every product below; the point is functional overlap.</p>
-      <img class="wide-visual" src="one-workspace-stack.png" alt="Comparison between a typical separate AI subscription stack and Stone Wing" />
+      <div class="comparison-visual">
+        <div class="stack-study"><span class="visual-overline">THE SEPARATE STACK</span><div class="stack-layer">AI interfaces</div><div class="stack-layer">Tools &amp; automation</div><div class="stack-layer">Remote access</div><span class="stack-caption">Multiple tools. Separate plans.</span></div>
+        <div class="workspace-study"><img src="stone-wing-mark.png" alt="" width="190" height="190" loading="lazy" /><span class="visual-overline">ONE GOVERNED WORKSPACE</span><strong>STONE WING</strong><span>Mac + Windows</span></div>
+      </div>
       <div class="cost-grid">
         <div><span>Premium general AI</span><strong>~$20/mo</strong></div>
         <div><span>Second premium model family</span><strong>~$20/mo</strong></div>
@@ -200,7 +231,7 @@
   </main>
 
   <footer class="footer shell">
-    <div class="brand"><span class="brand-mark">◆</span><span>STONE WING</span></div>
+    <div class="brand"><img class="brand-mark" src="stone-wing-mark.png" alt="" width="44" height="44" /><span>STONE WING</span></div>
     <p>One governed AI workspace. Mac + Windows.</p>
     <p class="fine">© 2026 Spindle & Stone. All rights reserved. Product capabilities shown are presented on the assumption that final release verification is completed. <a href="software-license.html">License</a> · <a href="subscription-terms.html">Subscription Terms</a> · <a href="privacy.html">Privacy</a> · <a href="refunds.html">Refunds & Cancellation</a></p>
   </footer>
