@@ -16,7 +16,7 @@ Key concepts:
 - Supported provider free-tier access where available
 
 Launch status: macOS Build89 released. Windows release pending separate verification.
-Pricing: $99 Early Bird one-time license and $9.99/month standard option.
+Pricing: $99 CAD one-time license or $9.99 CAD/month subscription.
 Cloudflare Workers AI is deferred from Build89 and is not shown in the shipped provider list.
 
 Official source: https://spindleandstone.com
