@@ -5,7 +5,8 @@ Website: https://spindleandstone.com
 Stone Wing is a governed desktop AI workspace for Mac and Windows. It brings multiple AI providers, files, MCP-compatible tools, routing, Bridge-connected computers, and approval/governance controls into one interface.
 
 Key concepts:
-- Mac + Windows desktop support
+- macOS Build89 released
+- Windows release follows separate verification
 - Multiple supported AI providers
 - Manual and automatic model routing
 - Files and project context
@@ -14,7 +15,8 @@ Key concepts:
 - Governance and approval controls
 - Supported provider free-tier access where available
 
-Launch status: Coming soon.
-Planned pricing: $99 Early Bird one-time license and $9.99/month standard option.
+Launch status: macOS Build89 released. Windows release pending separate verification.
+Pricing: $99 Early Bird one-time license and $9.99/month standard option.
+Cloudflare Workers AI is deferred from Build89 and is not shown in the shipped provider list.
 
 Official source: https://spindleandstone.com
