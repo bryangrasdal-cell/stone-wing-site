@@ -25,11 +25,11 @@ const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecti
         <p>No concept renders here. These are current captures from the real released applications.</p>
       </div>
       <div class="real-screen-card">
-        <img src="stone-wing-mac-release-ui.png" alt="Real Stone Wing macOS AI and Accounts settings screen" loading="lazy">
+        <a class="screenshot-link" href="https://spindleandstone.com/stone-wing-mac-release-ui.png?v=build90-live-2" target="_blank" rel="noopener"><img src="https://spindleandstone.com/stone-wing-mac-release-ui.png?v=build90-live-2" alt="Real Stone Wing macOS AI and Accounts settings screen" loading="lazy"></a>
         <div class="real-screen-copy"><div class="real-badge">MAC BUILD89 · REAL APP</div><strong>AI &amp; Accounts</strong><span>The released Mac application showing its actual account, optional worker and provider configuration surface.</span></div>
       </div>
       <div class="real-screen-card">
-        <img src="stone-wing-windows-build90-release-ui.png" alt="Real Stone Wing Windows Build90 Advanced settings screen" loading="lazy">
+        <a class="screenshot-link" href="https://spindleandstone.com/stone-wing-windows-build90-release-ui.png?v=build90-live-2" target="_blank" rel="noopener"><img src="https://spindleandstone.com/stone-wing-windows-build90-release-ui.png?v=build90-live-2" alt="Real Stone Wing Windows Build90 Advanced settings screen" loading="lazy"></a>
         <div class="real-screen-copy"><div class="real-badge">WINDOWS BUILD90 · PRODUCTION ACCEPTED</div><strong>Build90 on Windows</strong><span>The released Windows application showing its actual Advanced surface and visible Stone Wing 0.8.9 · Build 90 identity.</span></div>
       </div>
       <p class="real-screen-note">Actual application screenshots from the released Mac Build89 and Windows Build90 products. No design-concept render is used in this section.</p>`;

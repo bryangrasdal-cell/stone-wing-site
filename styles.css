@@ -3,3 +3,5 @@
 .beehiiv-embed {width: 100%;min-height: 86px;display: flex;align-items: center;}.beehiiv-embed iframe {width: 100% !important;max-width: 100% !important;}
 .footer a,.fine a{color:#8fc1ff;text-decoration:none}.footer a:hover,.fine a:hover{text-decoration:underline}.legal-page{padding:70px 0 110px;max-width:900px}.legal-page h1{font-size:clamp(44px,7vw,74px);margin:18px 0 12px}.legal-page h2{font-size:24px;letter-spacing:-.02em;margin:38px 0 10px}.legal-page p,.legal-page li{color:#a8b5c8;font-size:16px}.legal-page a{color:#8fc1ff}.legal-updated{font-size:12px!important;color:#718199!important;margin-bottom:34px}.legal-page strong{color:#e7edf7}
 .notify-box{margin-top:22px;border:1px solid #24466f;border-radius:20px;padding:28px;background:linear-gradient(180deg,#0a1626,#08101a)}.notify-box h3{margin:6px 0 8px;font-size:28px;letter-spacing:-.02em}.notify-box p{margin:0 0 16px;color:#93a2b6}.notify-box .beehiiv-embed{margin-top:14px}
+
+.screenshot-link{display:block;text-decoration:none}.screenshot-link img{display:block;width:100.screenshot-link{display:block;text-decoration:none}.screenshot-link img{display:block;width:100%;height:auto}
