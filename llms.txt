@@ -6,7 +6,7 @@ Stone Wing is a governed desktop AI workspace for Mac and Windows. It brings mul
 
 Key concepts:
 - macOS Build89 released
-- Windows release follows separate verification
+- Windows Build90 released
 - Multiple supported AI providers
 - Manual and automatic model routing
 - Files and project context
@@ -15,7 +15,7 @@ Key concepts:
 - Governance and approval controls
 - Supported provider free-tier access where available
 
-Launch status: macOS Build89 released. Windows release pending separate verification.
+Launch status: macOS Build89 released. Windows Build90 released with Microsoft PublicTrust signing and production acceptance.
 Pricing: $99 CAD one-time license or $9.99 CAD/month subscription.
 Cloudflare Workers AI is deferred from Build89 and is not shown in the shipped provider list.
 

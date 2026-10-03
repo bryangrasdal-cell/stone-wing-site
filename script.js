@@ -21,18 +21,18 @@ const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecti
     shots.innerHTML=`
       <div class="real-screen-intro">
         <div class="section-kicker">REAL PRODUCT SCREENS</div>
-        <h2>Stone Wing running on the actual Mac build.</h2>
-        <p>No concept render here. These are development and release-verification captures from the real Stone Wing application.</p>
+        <h2>Stone Wing running on released Mac and Windows builds.</h2>
+        <p>No concept renders here. These are current captures from the real released applications.</p>
       </div>
       <div class="real-screen-card">
-        <img src="real-build89-first-launch.jpg" alt="Real Stone Wing Build89 first-launch screenshot on macOS" loading="lazy">
-        <div class="real-screen-copy"><div class="real-badge">BUILD89 · RELEASE VERIFICATION</div><strong>Fresh-recipient first launch</strong><span>The released Mac interface opening cleanly in a recipient-style verification environment, with the actual sidebar, chat workspace, projects and settings structure visible.</span></div>
+        <img src="stone-wing-mac-release-ui.png" alt="Real Stone Wing macOS AI and Accounts settings screen" loading="lazy">
+        <div class="real-screen-copy"><div class="real-badge">MAC BUILD89 · REAL APP</div><strong>AI &amp; Accounts</strong><span>The released Mac application showing its actual account, optional worker and provider configuration surface.</span></div>
       </div>
       <div class="real-screen-card">
-        <img src="real-model-selfhost-test.jpg" alt="Real Stone Wing model integration and self-host test screen" loading="lazy">
-        <div class="real-screen-copy"><div class="real-badge">REAL DEVELOPMENT CAPTURE</div><strong>Stone Wing testing Stone Wing</strong><span>An earlier model-integration build running its own local Mac self-host checks. The captured output includes an eight-provider catalog pass, release-flow pass and personal-source verification pass.</span></div>
+        <img src="stone-wing-windows-build90-release-ui.png" alt="Real Stone Wing Windows Build90 Advanced settings screen" loading="lazy">
+        <div class="real-screen-copy"><div class="real-badge">WINDOWS BUILD90 · PRODUCTION ACCEPTED</div><strong>Build90 on Windows</strong><span>The released Windows application showing its actual Advanced surface and visible Stone Wing 0.8.9 · Build 90 identity.</span></div>
       </div>
-      <p class="real-screen-note">The first image is Build89 release-verification evidence. The second is an earlier development capture retained because it directly shows the self-host/model-integration workflow. Windows release follows its own verification.</p>`;
+      <p class="real-screen-note">Actual application screenshots from the released Mac Build89 and Windows Build90 products. No design-concept render is used in this section.</p>`;
   }
 
   const gov=document.querySelector('#governance');
