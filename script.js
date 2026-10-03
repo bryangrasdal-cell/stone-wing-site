@@ -26,11 +26,11 @@ const io=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecti
       </div>
       <div class="real-screen-card">
         <a class="screenshot-link" href="https://spindleandstone.com/stone-wing-mac-app.png?v=release-3" target="_blank" rel="noopener"><img src="https://spindleandstone.com/stone-wing-mac-app.png?v=release-3" alt="Real Stone Wing macOS AI and Accounts settings screen" loading="lazy"></a>
-        <div class="real-screen-copy"><div class="real-badge">MAC · REAL APP</div><strong>AI &amp; Accounts</strong><span>The Mac application showing its actual account, optional worker and provider configuration surface.</span></div>
+        <div class="real-screen-copy"><div class="real-badge"><img class="inline-platform-logo" src="apple.svg" alt="" aria-hidden="true" />MAC · REAL APP</div><strong>AI &amp; Accounts</strong><span>The Mac application showing its actual account, optional worker and provider configuration surface.</span></div>
       </div>
       <div class="real-screen-card">
         <a class="screenshot-link" href="https://spindleandstone.com/stone-wing-windows-app.png?v=release-3" target="_blank" rel="noopener"><img src="https://spindleandstone.com/stone-wing-windows-app.png?v=release-3" alt="Real Stone Wing Windows Appearance settings screen" loading="lazy"></a>
-        <div class="real-screen-copy"><div class="real-badge">WINDOWS · REAL APP</div><strong>Appearance + glass controls</strong><span>The Windows application showing its actual theme, accent, glass transparency, corner shape and layout controls.</span></div>
+        <div class="real-screen-copy"><div class="real-badge"><img class="inline-platform-logo" src="windows.svg" alt="" aria-hidden="true" />WINDOWS · REAL APP</div><strong>Appearance + glass controls</strong><span>The Windows application showing its actual theme, accent, glass transparency, corner shape and layout controls.</span></div>
       </div>
       <p class="real-screen-note">Actual application screenshots from Stone Wing for Mac and Windows.</p>`;
   }
