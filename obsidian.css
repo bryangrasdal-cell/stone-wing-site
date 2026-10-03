@@ -70,7 +70,7 @@
 @media(max-width:580px){.obsidian-site h1{font-size:52px}.obsidian-site .hero-copy{font-size:16px}.hero-sculpture{height:370px;max-width:370px}.obsidian-site .proof-strip{grid-template-columns:1fr 1fr;margin-top:32px}.obsidian-site .proof-strip div{padding:16px;border-right:1px solid #252930}.obsidian-site .proof-strip strong{font-size:13px}.obsidian-site .proof-strip span{font-size:10px}.controller-surface{min-height:320px;grid-template-columns:65px 1fr}.controller-rail{padding:23px 9px;font-size:8px}.rail-label{font-size:5px}.core-orbit{width:145px;height:145px}.controller-dock{left:calc(50% + 30px);gap:17px;padding:13px 16px}.platform-label{font-size:10px!important}.concept-pill{font-size:7px}.workflow-visual{padding:22px 14px;gap:12px}.workflow-rail div{padding:12px 8px;gap:6px}.workflow-rail strong{font-size:10px}.workflow-rail span{font-size:7px}.comparison-visual{grid-template-columns:1fr;padding:30px;gap:35px}.stack-study{max-width:340px;width:100%;justify-self:center}.obsidian-site .node.center{width:120px;height:120px}.node.center img{width:80px;height:80px}.obsidian-site .node.center span{font-size:5px}.obsidian-site .node.computer{padding:12px 10px;font-size:10px}.obsidian-site .section{padding:65px 0}.obsidian-site .governance-box{padding:26px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none;transform:none}}
 
-/* Build90 website glass polish — visual treatment only, no glass branding copy. */
+/* Website glass polish — visual treatment only, no glass branding copy. */
 .hero-sculpture::before{
   content:'';position:absolute;width:88%;aspect-ratio:1;border-radius:50%;
   background:radial-gradient(circle at 50% 52%,rgba(38,112,190,.16),rgba(25,54,82,.05) 42%,transparent 70%);

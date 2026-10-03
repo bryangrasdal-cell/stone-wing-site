@@ -16,12 +16,12 @@ Stone Wing brings multiple AI models, files, MCP tools, routing, Bridge-connecte
 
 ## Launch
 
-Stone Wing Build89 for macOS is released and has completed signing, Apple notarization, Gatekeeper validation, packaging, and fresh-recipient verification.
+Stone Wing for Mac is released and has completed signing, Apple notarization, Gatekeeper validation, and packaging.
 
 - Mac one-time license: **$99 CAD**
 - Mac monthly subscription: **$9.99 CAD/month**
 - Windows: release follows separate Windows verification
-- Cloudflare Workers AI: deferred from Build89 and not shown in the shipped provider list
+- Cloudflare Workers AI: deferred and not shown in the shipped provider list
 
 **Website:** https://spindleandstone.com
 
