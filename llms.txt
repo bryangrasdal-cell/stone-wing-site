@@ -1,22 +1,23 @@
 # Stone Wing
 
-Website: https://spindleandstone.com
+Website: https://spindleandstone.com/
 
-Stone Wing is a governed desktop AI workspace for Mac and Windows. It brings multiple AI providers, files, MCP-compatible tools, routing, Bridge-connected computers, and approval/governance controls into one interface.
+Stone Wing is a multi-model AI desktop workspace for Mac and Windows. It connects supported AI providers, files, MCP-compatible tools and authorized computers through Bridge, with governance and approval boundaries around consequential actions.
 
 Key concepts:
-- Mac released
-- Windows released
+- Mac + Windows available
 - Multiple supported AI providers
-- Manual and automatic model routing
+- Manual and task-aware model routing
 - Files and project context
-- MCP tools
-- Bridge-connected computers
-- Governance and approval controls
+- MCP-compatible tools
+- Bridge for authorized cross-computer workflows
+- Governance: VERIFY → AUTHORIZE → APPROVE → PROVE
 - Supported provider free-tier access where available
 
-Launch status: Stone Wing is available for Mac and Windows.
-Pricing: $99 CAD one-time license or $9.99 CAD/month subscription.
-Cloudflare Workers AI is deferred and is not shown in the shipped provider list.
+Commercial offer:
+- 7-day free trial; payment method required; then $9.99 CAD/month unless cancelled before the trial ends
+- $99 CAD one-time Stone Wing license
+- Third-party provider/API fees, limits and terms are separate from Stone Wing
 
-Official source: https://spindleandstone.com
+Official support: https://spindleandstone.com/support.html
+Official source: https://spindleandstone.com/
