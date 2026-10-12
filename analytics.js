@@ -2,7 +2,7 @@
  * Stone Wing website analytics integration (pending GA4 ownership and measurement ID).
  * This script intentionally performs NO analytics request without a verified G- measurement ID.
  * A site admin enables it by adding a meta tag with the real GA4 web-stream ID:
- *   name="stonewing-ga4-id" content="[VERIFIED ID]"
+ * A site administrator must supply the exact ID from the owned Google Analytics web stream.
  * No advertising personalization is enabled. Analytics requires visitor opt-in.
  */
 (function(){
