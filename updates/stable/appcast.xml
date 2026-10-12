@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Stone Wing Pro Updates</title>
+    <link>https://spindleandstone.com/updates/stable/appcast.xml</link>
+    <description>Stable updates for Stone Wing Pro for macOS.</description>
+    <language>en</language>
+    <item>
+      <title>Stone Wing Pro 0.9.1</title>
+      <pubDate>Mon, 12 Oct 2026 22:20:00 +0000</pubDate>
+      <sparkle:version>93</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+      <sparkle:releaseNotesLink>https://spindleandstone.com/updates/stable/0.9.1.html</sparkle:releaseNotesLink>
+      <enclosure
+        url="https://spindleandstone.com/updates/stable/Stone-Wing-0.9.1-b93-macOS.zip"
+        length="9726851"
+        type="application/octet-stream"
+        sparkle:edSignature="6IIdo6k+51LKevfPgIoakJjPRugPz/8IZVFTa1xbEF6CuOHxO7KNVyIrSHY11r7WjxJqf86oCso2E7ftvu8EDw==" />
+    </item>
+  </channel>
+</rss>
