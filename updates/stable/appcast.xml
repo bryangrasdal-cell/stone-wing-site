@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><!-- sparkle-sign-warning:
+IMPORTANT: This file was signed by Sparkle. Any modifications to this file requires re-signing this file with generate_appcast or sign_update! The signed signature will be embedded at the end of this file.
+--><rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
   <channel>
     <title>Stone Wing Pro Updates</title>
     <link>https://spindleandstone.com/updates/stable/appcast.xml</link>
@@ -11,12 +12,11 @@
       <sparkle:version>93</sparkle:version>
       <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-      <sparkle:releaseNotesLink>https://spindleandstone.com/updates/stable/0.9.1.html</sparkle:releaseNotesLink>
-      <enclosure
-        url="https://spindleandstone.com/updates/stable/Stone-Wing-0.9.1-b93-macOS.zip"
-        length="9726851"
-        type="application/octet-stream"
-        sparkle:edSignature="6IIdo6k+51LKevfPgIoakJjPRugPz/8IZVFTa1xbEF6CuOHxO7KNVyIrSHY11r7WjxJqf86oCso2E7ftvu8EDw==" />
+      <sparkle:releaseNotesLink sparkle:edSignature="JXayyFlR6C8HsBMVrZ4e1jTrVtGn+Z5H6bo78GmYgfZR0Wzd5e044dlixpZyTGjx4g6ucLkXL8YmiWWCv7KRBA==" sparkle:length="1458">https://spindleandstone.com/updates/stable/0.9.1.html</sparkle:releaseNotesLink>
+      <enclosure url="https://spindleandstone.com/updates/stable/Stone-Wing-0.9.1-b93-macOS.zip" length="9726851" type="application/octet-stream" sparkle:edSignature="6IIdo6k+51LKevfPgIoakJjPRugPz/8IZVFTa1xbEF6CuOHxO7KNVyIrSHY11r7WjxJqf86oCso2E7ftvu8EDw=="></enclosure>
     </item>
   </channel>
-</rss>
+</rss><!-- sparkle-signatures:
+edSignature: X68NrmxyP3B1wXNxCBuVknBj4rTNtTIl/s1BH5jROvher980r9JUeACr1SVdzN4Wo+APYBG/aSR18wh/xA0QBA==
+length: 1451
+-->
