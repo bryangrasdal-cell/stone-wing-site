@@ -1,0 +1,61 @@
+.release-banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+  min-height: 44px;
+  padding: 9px 20px;
+  text-align: center;
+  background: linear-gradient(90deg, #174b82, #286fb7 52%, #174b82);
+  border-bottom: 1px solid rgba(148, 199, 255, 0.38);
+  color: #f7fbff;
+  font-size: 0.84rem;
+}
+
+.release-banner a { color: #fff; font-weight: 800; text-underline-offset: 3px; }
+.release-banner span { color: #c7ddf6; }
+
+.unavailable-card {
+  position: relative;
+  overflow: hidden;
+  border-color: rgba(148, 163, 184, 0.22) !important;
+  background: linear-gradient(145deg, rgba(22, 26, 34, 0.9), rgba(8, 10, 14, 0.92)) !important;
+}
+
+.unavailable-card > img { filter: grayscale(1) brightness(0.48); opacity: 0.6; }
+
+.coming-soon-ribbon {
+  position: absolute;
+  z-index: 3;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 11px 16px;
+  text-align: center;
+  background: linear-gradient(90deg, rgba(8, 12, 19, 0.97), rgba(38, 91, 151, 0.97), rgba(8, 12, 19, 0.97));
+  border-bottom: 1px solid rgba(131, 189, 255, 0.45);
+  color: #e9f4ff;
+  font-size: 0.74rem;
+  font-weight: 900;
+  letter-spacing: 0.17em;
+}
+
+.windows-coming-soon { padding-top: 72px; }
+
+.button.disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #8d98a7;
+  background: rgba(255, 255, 255, 0.025);
+  border-color: rgba(255, 255, 255, 0.09);
+  box-shadow: none;
+}
+
+.mac-release-actions { grid-template-columns: 1fr 1fr; }
+.mac-release-actions .button:first-child { grid-column: 1 / -1; }
+
+@media (max-width: 700px) {
+  .release-banner { flex-direction: column; gap: 2px; padding: 10px 14px; }
+  .mac-release-actions { grid-template-columns: 1fr; }
+  .mac-release-actions .button:first-child { grid-column: auto; }
+}
